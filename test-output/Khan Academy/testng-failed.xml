@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Khan Academy]">
+  <listeners>
+    <listener class-name="resource.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Khan academy">
+    <classes>
+      <class name="Practice.Appium_Framework.OpenApp"/>
+      <class name="Practice.Appium_Framework.TC01"/>
+      <class name="Practice.Appium_Framework.TC02_Signup"/>
+      <class name="Practice.Appium_Framework.TC04_VerifyBookmark"/>
+      <class name="Practice.Appium_Framework.TC05_VerifyAddCourse"/>
+    </classes>
+  </test> <!-- Khan academy -->
+</suite> <!-- Failed suite [Khan Academy] -->

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Khan_Academy">
+              <span class="suite-name border-passed">Khan Academy</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Khan_Academy">
+                    <span>C:\Users\AnithaRaman\eclipse-Mobileworkspace1\Appium_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Khan_Academy">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Khan_Academy">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Khan_Academy">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Khan_Academy">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Khan_Academy">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Khan_Academy">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Khan_Academy" class="hide-methods passed suite-Khan_Academy"> (hide)</a> <!-- hide-methods passed suite-Khan_Academy -->
+                      <a href="#" panel-name="suite-Khan_Academy" class="show-methods passed suite-Khan_Academy"> (show)</a> <!-- show-methods passed suite-Khan_Academy -->
+                    </span>
+                    <div class="method-list-content passed suite-Khan_Academy">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC04_VerifyBookmark" hash-for-method="addBookmarkTest">addBookmarkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC05_VerifyAddCourse" hash-for-method="addCourseTest">addCourseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC02_Signup" hash-for-method="signUpwithGoogle">signUpwithGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC04_VerifyBookmark" hash-for-method="verifyBookmarkTest">verifyBookmarkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC05_VerifyAddCourse" hash-for-method="verifyCourseTest">verifyCourseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC02_Signup" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Khan_Academy" title="Practice.Appium_Framework.TC01" hash-for-method="verifyMessage">verifyMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Khan_Academy -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Khan_Academy" class="panel Khan_Academy">
+          <div class="suite-Khan_Academy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Practice.Appium_Framework.TC05_VerifyAddCourse</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCourseTest">
+                  </a> <!-- addCourseTest -->
+                  <span class="method-name">addCourseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCourseTest">
+                  </a> <!-- verifyCourseTest -->
+                  <span class="method-name">verifyCourseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Khan_Academy-class-passed -->
+          <div class="suite-Khan_Academy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Practice.Appium_Framework.TC02_Signup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpwithGoogle">
+                  </a> <!-- signUpwithGoogle -->
+                  <span class="method-name">signUpwithGoogle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Khan_Academy-class-passed -->
+          <div class="suite-Khan_Academy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Practice.Appium_Framework.TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMessage">
+                  </a> <!-- verifyMessage -->
+                  <span class="method-name">verifyMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Khan_Academy-class-passed -->
+          <div class="suite-Khan_Academy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Practice.Appium_Framework.TC04_VerifyBookmark</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBookmarkTest">
+                  </a> <!-- addBookmarkTest -->
+                  <span class="method-name">addBookmarkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookmarkTest">
+                  </a> <!-- verifyBookmarkTest -->
+                  <span class="method-name">verifyBookmarkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Khan_Academy-class-passed -->
+        </div> <!-- panel Khan_Academy -->
+        <div panel-name="test-xml-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\AnithaRaman\eclipse-Mobileworkspace1\Appium_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Khan Academy&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resource.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Khan academy&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Practice.Appium_Framework.OpenApp&quot;/&gt;
+      &lt;class name=&quot;Practice.Appium_Framework.TC01&quot;/&gt;
+      &lt;class name=&quot;Practice.Appium_Framework.TC02_Signup&quot;/&gt;
+      &lt;class name=&quot;Practice.Appium_Framework.TC04_VerifyBookmark&quot;/&gt;
+      &lt;class name=&quot;Practice.Appium_Framework.TC05_VerifyAddCourse&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Khan academy --&gt;
+&lt;/suite&gt; &lt;!-- Khan Academy --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Khan Academy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Khan academy (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Khan Academy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Khan Academy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Khan_Academy');
+function tableData_Khan_Academy() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addCourseTest')
+data.setCell(0, 2, 'Practice.Appium_Framework.TC05_VerifyAddCourse')
+data.setCell(0, 3, 25220);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signUpwithGoogle')
+data.setCell(1, 2, 'Practice.Appium_Framework.TC02_Signup')
+data.setCell(1, 3, 20795);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addBookmarkTest')
+data.setCell(2, 2, 'Practice.Appium_Framework.TC04_VerifyBookmark')
+data.setCell(2, 3, 19907);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyMessage')
+data.setCell(3, 2, 'Practice.Appium_Framework.TC01')
+data.setCell(3, 3, 13918);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLogin')
+data.setCell(4, 2, 'Practice.Appium_Framework.TC02_Signup')
+data.setCell(4, 3, 10464);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyBookmarkTest')
+data.setCell(5, 2, 'Practice.Appium_Framework.TC04_VerifyBookmark')
+data.setCell(5, 3, 5394);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCourseTest')
+data.setCell(6, 2, 'Practice.Appium_Framework.TC05_VerifyAddCourse')
+data.setCell(6, 3, 405);
+window.suiteTableData['Khan_Academy']= { tableData: data, tableDiv: 'times-div-Khan_Academy'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Khan_Academy">
+              </div> <!-- times-div-Khan_Academy -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Khan Academy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Khan_Academy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Practice.Appium_Framework.OpenApp</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openAPP</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Practice.Appium_Framework.TC01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyMessage</span>
+                <span class="method-start">34644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Practice.Appium_Framework.TC02_Signup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signUpwithGoogle</span>
+                <span class="method-start">48576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">69379 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Practice.Appium_Framework.TC04_VerifyBookmark</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addBookmarkTest</span>
+                <span class="method-start">79845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookmarkTest</span>
+                <span class="method-start">99756 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Practice.Appium_Framework.TC05_VerifyAddCourse</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addCourseTest</span>
+                <span class="method-start">105156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCourseTest</span>
+                <span class="method-start">130380 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
